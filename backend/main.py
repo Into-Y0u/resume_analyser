@@ -4,8 +4,14 @@ from fastapi.responses import JSONResponse
 import os
 from fastapi.middleware.cors import CORSMiddleware
 
+from src.handler.logging.log_manager import LoggerManager
+from config import on_start_events
 
-app = FastAPI()
+logger = LoggerManager.get_logger(__name__)
+
+
+
+app = FastAPI(lifespan=on_start_events)
 
 # Create uploads directory if not exists
 UPLOAD_DIR = "uploads"
@@ -23,6 +29,8 @@ app.add_middleware(
 
 @app.get("/")
 async def hello():
+    logger.warning("Warning messgae ")
+    logger.info("End Point reached")
     return {"message" : "Application loaded successfully, Kindly use the right endpoint"}
 
 
@@ -33,7 +41,7 @@ async def login_test():
         return res
     
     except Exception as ex :
-        print("[main][Exception in login_test] {} ".format(ex))
+        logger.info("[main][Exception in login_test] {} ".format(ex))
         
         # logging.exception
 

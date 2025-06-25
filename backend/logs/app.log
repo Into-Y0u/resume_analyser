@@ -1,0 +1,14 @@
+2025-06-26 00:07:07 - INFO - main - main.startup_event:17 - Application startup
+2025-06-26 00:15:20 - INFO - main - main.startup_event:17 - Application startup
+2025-06-26 00:25:23 - INFO - config - config.on_start_events:9 - 🚀 Application starting up
+2025-06-26 00:25:23 - INFO - config - config.on_start_events:12 - Initializing database connection...
+2025-06-26 00:25:32 - INFO - config - config.on_start_events:16 - 🛑 Application shutting down
+2025-06-26 00:25:33 - INFO - config - config.on_start_events:9 - 🚀 Application starting up
+2025-06-26 00:25:33 - INFO - config - config.on_start_events:12 - Initializing database connection...
+2025-06-26 00:26:03 - INFO - config - config.on_start_events:16 - 🛑 Application shutting down
+2025-06-26 00:26:05 - INFO - config - config.on_start_events:9 - 🚀 Application starting up
+2025-06-26 00:26:05 - INFO - config - config.on_start_events:12 - Initializing database connection...
+2025-06-26 00:27:35 - INFO - config - config.on_start_events:16 - 🛑 Application shutting down
+2025-06-26 00:30:26 - INFO - config - config.on_start_events:9 - 🚀 Application starting up
+2025-06-26 00:30:26 - INFO - config - config.on_start_events:12 - Initializing database connection...
+2025-06-26 00:30:40 - INFO - config - config.on_start_events:16 - 🛑 Application shutting down
